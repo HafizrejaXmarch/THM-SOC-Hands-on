@@ -13,9 +13,7 @@ Analisis ini mendokumentasikan investigasi terhadap 3 vektor serangan phishing b
 - **Link Masking:** Tombol aksi `Cancel the order` menyembunyikan tautan asli dengan pemendek URL (`https://is.gd/6oCJ4m`) guna melewati penyaring tautan email.
 
 ### Bukti Konsep (PoC)
-![PayPal Email Body](./screenshots/task2-paypal-body.png)
-<img width="940" height="491" alt="image" src="https://github.com/user-attachments/assets/256814a5-96b9-4993-abb6-95e14b2a8a6e" />
-
+![PayPal Email Body](<img width="940" height="491" alt="image" src="https://github.com/user-attachments/assets/b8462856-5888-40ec-967f-c3b4e2519ef1" />)
 *Gambar 1.1: Tampilan badan email tanda terima pembayaran fiktif.*
 
 ![HTML Link Analysis](./screenshots/task2-html-link.png)
