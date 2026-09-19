@@ -14,16 +14,20 @@ Analisis ini mendokumentasikan investigasi terhadap 3 vektor serangan phishing b
 
 ### Bukti Konsep (PoC)
 ![PayPal Email Body]
+
 <img width="940" height="491" alt="image" src="https://github.com/user-attachments/assets/e01f27fc-c898-49d0-b04e-123bcdb89528" />
-
-(https://github.com/user-attachments/assets/b8462856-5888-40ec-967f-c3b4e2519ef1)
-
 *Gambar 1.1: Tampilan badan email tanda terima pembayaran fiktif.*
 
-![HTML Link Analysis](./screenshots/task2-html-link.png)
+![HTML Link Analysis]
+
+<img width="940" height="201" alt="image" src="https://github.com/user-attachments/assets/5fd322dd-7e89-46d5-9930-e9191bdbdf31" />
+
 *Gambar 1.2: Kode HTML tombol membongkar tautan pemendek is.gd.*
 
-![URL Unshorten](./screenshots/task2-url-unshorten.png)
+![URL Unshorten]
+
+<img width="940" height="530" alt="image" src="https://github.com/user-attachments/assets/804fcf38-073b-4ee8-b3f4-e8d965d06e3a" />
+
 *Gambar 1.3: Hasil pelacakan tautan asli via layanan ekspansi URL.*
 
 ### Indikator Keberadaan Ancaman (IoC)
@@ -41,10 +45,16 @@ Analisis ini mendokumentasikan investigasi terhadap 3 vektor serangan phishing b
 - **Reconnaissance:** Penyerang menyematkan elemen gambar tak terlihat (`Tracking.png`) pada kode sumber HTML. Saat email dibuka, permintaan GET otomatis terkirim ke server penyerang untuk merekam status aktif email, waktu akses, dan alamat IP publik korban.
 
 ### Bukti Konsep (PoC)
-![Tracking Email](./screenshots/task3-tracking-email.png)
+![Tracking Email]
+
+<img width="940" height="200" alt="image" src="https://github.com/user-attachments/assets/15f0e3c3-34c3-41f1-8c8b-f51d7225663e" />
+
 *Gambar 2.1: Header email dan tautan pelacakan paket tiruan.*
 
-![Tracking Pixel HTML](./screenshots/task3-pixel-html.png)
+![Tracking Pixel HTML]
+
+<img width="940" height="346" alt="image" src="https://github.com/user-attachments/assets/10979223-b1fd-4426-bc1c-620de63d52a6" />
+
 *Gambar 2.2: Bukti tag gambar pelacak internal dan target domain devret.xyz.*
 
 ### Indikator Keberadaan Ancaman (IoC)
@@ -63,10 +73,16 @@ Analisis ini mendokumentasikan investigasi terhadap 3 vektor serangan phishing b
 - **Attachment Delivery:** Badan email memancing korban mengunduh file lampiran `Payment-up....pdf`. Dokumen tersebut memuat tombol pembaruan akun pembayaran yang mengarahkan ke portal pencurian kredensial (*Credential Harvesting*).
 
 ### Bukti Konsep (PoC)
-![Netflix Header](./screenshots/task5-netflix-header.png)
+![Netflix Header]
+
+<img width="940" height="269" alt="image" src="https://github.com/user-attachments/assets/27cd184a-ecf3-45d4-a457-024c0160e7df" />
+
 *Gambar 3.1: Header email dengan indikasi salah eja merek Netllx.*
 
-![Netflix PDF Lure](./screenshots/task5-pdf-lure.png)
+![Netflix PDF Lure]
+
+<img width="940" height="362" alt="image" src="https://github.com/user-attachments/assets/31893613-09c0-44f9-bb8f-b33bca9fb4a3" />
+
 *Gambar 3.2: Ajakan memperbarui informasi pembayaran via dokumen PDF.*
 
 ### Indikator Keberadaan Ancaman (IoC)
