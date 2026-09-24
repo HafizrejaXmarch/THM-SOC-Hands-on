@@ -1,4 +1,4 @@
-# 02 - Endpoint & Host Forensics: Windows Core Artifacts & Triage Baseline
+# Modul 02 - Endpoint & Host Forensics: Windows Core Artifacts & Triage Baseline
 
 ## Ringkasan Eksekutif
 Dokumentasi ini mencakup prosedur investigasi host dan pengumpulan artefak dasar pada sistem operasi Windows menggunakan utilitas bawaan (*native utilities*). Prosedur ini mengacu pada tahap **Detection & Analysis** dalam standar NIST SP 800-61r2 untuk memvalidasi integritas aset, mengidentifikasi mekanisme retensi/eksekusi tidak sah (*persistence*), serta memetakan potensi celah pergerakan lateral (*lateral movement*).
