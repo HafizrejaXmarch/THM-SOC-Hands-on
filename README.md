@@ -7,7 +7,7 @@ Repositori ini mendokumentasikan investigasi teknis, analisis ancaman, ekstraksi
 | No | Modul Investigasi | Topik & Room Utama | Status | Tautan Laporan |
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | **Email & Phishing Analysis** | Phishing Analysis Fundamentals & In Action | ✅ Completed | [Lihat Laporan](./01-Email-Phishing-Analysis/) |
-| **02** | **Endpoint & Host Forensics** | Windows Event Logs, Sysmon, Core Processes | ⏳ Planned | [Lihat Detail](./02-Endpoint-Windows-Forensics/) |
+| **02** | **Endpoint & Host Forensics** | Windows Event Logs, Sysmon, Core Processes | ✅ In Progress | [Lihat Detail](./02-Endpoint-Windows-Forensics/) |
 | **03** | **Network Traffic Analysis** | Wireshark Packet Analysis, NetworkMiner | ⏳ Planned | [Lihat Detail](./03-Network-Traffic-Analysis/) |
 | **04** | **SIEM & Log Operations** | Splunk Searching (SPL), Wazuh EDR/SIEM | ⏳ Planned | [Lihat Detail](./04-SIEM-Log-Investigation/) |
 | **05** | **Threat Intel & Frameworks** | MITRE ATT&CK, Cyber Defense Frameworks | ⏳ Planned | [Lihat Detail](./05-Threat-Intel-Frameworks/) |
