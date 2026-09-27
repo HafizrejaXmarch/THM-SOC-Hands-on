@@ -13,6 +13,7 @@ Dalam penanganan insiden, langkah pertama adalah memvalidasi detail aset yang te
   - **Hostname:** `THM-WINFUN2`
   - **Arsitektur:** AMD64 / Windows Server
 - **PoC:**
+
   <img width="890" height="232" alt="image" src="https://github.com/user-attachments/assets/4b6c9a48-cc5c-4e70-84c8-c9ca35f0ef00" />
 
 
@@ -29,6 +30,7 @@ Penyerang kerap menambahkan script atau binary pada program startup agar malware
   - **User Context:** `THM-WINFUN2\Administrator`
 - **Relevansi SOC L1:** Membedakan proses autostart normal dari indikasi persistence backdoor pada sesi user berhak akses tinggi (*privileged*).
 - **PoC:**
+
   <img width="816" height="392" alt="image" src="https://github.com/user-attachments/assets/b294d777-5ada-4c78-a7ac-01e6cce5b699" />
 
 
@@ -44,6 +46,7 @@ Folder bersama (*network share*) yang terbuka atau disembunyikan (*hidden shares
   - **Custom / Hidden Share Terdeteksi:** `sh4r3dF0Ld3r$` (folder tersembunyi menggunakan identitas karakter `$`).
 - **Relevansi SOC L1:** Analis wajib menandai share non-standar yang disembunyikan sebagai anomali yang perlu diaudit hak aksesnya.
 - **PoC:**
+
   <img width="841" height="241" alt="image" src="https://github.com/user-attachments/assets/4f734675-94fa-4d7a-b6de-00ff88202ce8" />
 
 
@@ -60,5 +63,6 @@ Audit biner administratif resmi Windows yang berpotensi disalahgunakan (*Living 
   - **Variabel ComSpec:** `%SystemRoot%\system32\cmd.exe`
 - **Relevansi SOC L1:** Menjadi basis deteksi process execution jika biner tersebut dipanggil oleh parent process anomali (misalnya browser atau file office).
 - **PoC:**
+
   <img width="470" height="312" alt="image" src="https://github.com/user-attachments/assets/50721fd7-5801-493f-abbe-fe4ba548d61e" />
 
