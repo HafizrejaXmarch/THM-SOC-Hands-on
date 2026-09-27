@@ -13,6 +13,8 @@ Dalam penanganan insiden, langkah pertama adalah memvalidasi detail aset yang te
   - **Hostname:** `THM-WINFUN2`
   - **Arsitektur:** AMD64 / Windows Server
 - **PoC:**
+- <img width="890" height="232" alt="image" src="https://github.com/user-attachments/assets/4b6c9a48-cc5c-4e70-84c8-c9ca35f0ef00" />
+
 
 
 ---
